@@ -16,6 +16,8 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap"
       rel="stylesheet"
     />
+    <link rel="preload" href="css/normalize.css" as="style" />
+    <link rel="stylesheet" href="css/normalize.css" />
     <link rel="preload" href="css/style.css" as="style" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Frontend Mentor | Huddle landing page with curved sections</title>
@@ -26,7 +28,7 @@
         <figure class="hero__logo">
           <img src="images/logo.svg" class="hero__huddle" />
         </figure>
-        <a href="#" class="hero_cta">Try it free</a>
+        <a href="#" class="hero__cta">Try it free</a>
       </nav>
       <div class="hero__main container">
         <div class="hero__texts">
@@ -134,6 +136,17 @@
 
     <footer class="footer">
       <div class="footer__container container">
+        <section class="footer__newsletter">
+          <h2 class="footer__title">Newsletter</h2>
+          <p class="footer__paragraph footer__paragraph--newsletter">
+            To recieve tips on how to grow your community, sign up to our weekly
+            newsletter. We’ll never send you spam or pass on your email address
+          </p>
+          <form class="footer__form">
+            <input type="email" class="footer__input" />
+            <input type="submit" value="Subscribe" class="footer__cta" />
+          </form>
+        </section>
         <section class="footer__content">
           <img src="images/logo-white.svg" class="footer__logo" />
           <p class="footer__paragraph">
@@ -159,32 +172,7 @@
             </a>
           </div>
         </section>
-        <section class="footer__newsletter">
-          <h2 class="footer__title">Newsletter</h2>
-          <p class="footer__paragraph">
-            To recieve tips on how to grow your community, sign up to our weekly
-            newsletter. We’ll never send you spam or pass on your email address
-          </p>
-          <form class="footer__form">
-            <input type="email" class="footer__input" />
-            <input type="submit" value="Subscribe" />
-          </form>
-        </section>
       </div>
     </footer>
-    <!-- 
-      
-    
-    
-  
-    
-    
-    Phone: +1-543-123-4567
-    example@huddle.com
-  
-    
-    
-  
-     -->
   </body>
 </html>
