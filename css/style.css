@@ -68,7 +68,7 @@ body {
   padding: 0.5rem 1.7rem;
   border-radius: 2em;
   font-weight: 600;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   text-decoration: none;
   box-shadow: 0 0 1px var(--very-dark-cyan-shadow);
 }
@@ -85,7 +85,7 @@ body {
 
 .hero__title {
   font-family: var(--font2);
-  font-size: 3.5rem;
+  font-size: 3rem;
 }
 
 .hero__paragraph {
@@ -100,7 +100,7 @@ body {
   background-color: var(--pink);
   color: #fff;
   font-weight: 600;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   border-radius: 2.5rem;
   padding: 1.3rem 3.5rem;
   text-decoration: none;
